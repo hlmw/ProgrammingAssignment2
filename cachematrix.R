@@ -68,6 +68,9 @@
 #
 # INPUTS:   x - Normal matrix value to use to create the 
 #               special cached matrix
+#               If no x argument is provided by the caller,
+#               the default empty matrix value is used: 
+#               a 1 x 1 matrix containing NA.
 #
 # RETURNS:  Named list of the functions that can be used
 #           to manipulate the special cached matrix created
